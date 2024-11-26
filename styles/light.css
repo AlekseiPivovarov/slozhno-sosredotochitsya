@@ -11,6 +11,8 @@
     --main-text-color: #353430;
     --decoration-text-color: #353430;
     --logo-decorate-color: #FF0070;
+    --button-hover-decorate: rgba(50, 49, 45, 0.40);
+    --background-color: #fff1f7;
   }
 
   .page {
@@ -32,6 +34,8 @@
   --main-text-color: #353430;
   --decoration-text-color: #353430;
   --logo-decorate-color: #FF0070;
+  --button-hover-decorate: rgba(50, 49, 45, 0.40);
+  --background-color: #fff1f7;
   background-image: url(../images/cover-image-light.png);
 }
 

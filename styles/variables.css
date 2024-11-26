@@ -10,4 +10,6 @@
   --main-text-color: #F1B2CE;
   --decoration-text-color: #000028;
   --logo-decorate-color: #FF0070;
+  --button-hover-decorate: rgba(255, 0, 112, 0.40);
+  --background-color: #000028;
 }
