@@ -7,8 +7,8 @@
   grid-template-rows: repeat(3, 1fr);
   width: 100%;
   height: 100vh;
-  padding-inline: 10px;
   min-height: 100vh;
+  padding-inline: 10px;
 }
 
 .decorated-zone::after {
@@ -32,8 +32,6 @@
   inset-block-end: 10px;
   inset-inline-start: 10px;
 }
-
-
 
 .record {
   position: absolute;
@@ -82,19 +80,19 @@
   line-height: 18px; /* 100% */
   text-align: center;
   background-color: transparent;
-  block-size: 26px;
   cursor: pointer;
+  block-size: 26px;
 }
 
 .header__theme-menu-button:focus {
   border: none;
-  outline: none;
   border-bottom: 1px solid var(--accent-color);
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: none;
   border-bottom: 1px solid var(--accent-color);
+  outline: none;
 }
 
 .header__theme-menu-button:hover {
@@ -173,8 +171,8 @@
 
 .content__link {
   color: var(--main-text-color);
-  text-shadow: 2px 2px var(--background-decorate-color);
   text-decoration: none;
+  text-shadow: 2px 2px var(--background-decorate-color);
 }
 
 .content__link:hover {
@@ -439,17 +437,11 @@
 }
 }
 
-
-
 .page {
+  background-color: var(--background-color);
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--background-decorate-color);
-  background-color: var(--background-color);
 }
-
-
-/* добавить активность элементов и фавикон и ссылки*/
