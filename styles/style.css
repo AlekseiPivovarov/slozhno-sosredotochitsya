@@ -293,7 +293,7 @@
     margin-inline-start: 15px;
   }
 
-  .content__container-light {
+  .content__container-low {
     grid-column: 1 / span 3;
     margin-inline-start: 0px;
   }
@@ -395,7 +395,7 @@
     grid-column: 2 / span 2;
   }
 
-  .content__container-light {
+  .content__container-low {
     grid-column: span 1;
   }
 
