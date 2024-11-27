@@ -7,7 +7,7 @@
   grid-template-rows: repeat(3, 1fr);
   width: 100%;
   height: 100vh;
-  min-height: 100vh;
+  min-height: 668px;
   padding-inline: 10px;
 }
 
@@ -217,7 +217,7 @@
   align-items: center;
   width: 100%;
   height: 100vh;
-  min-height: 100vh;
+  min-height: 668px;
 }
 
 .footer__logo {
@@ -288,13 +288,14 @@
     padding-inline-end: 10px;
   }
 
-  .grid-col-medium {
+  .content__container {
     grid-column: 2 / span 2;
     margin-inline-start: 15px;
   }
 
-  .grid-col-light {
+  .content__container-light {
     grid-column: 1 / span 3;
+    margin-inline-start: 0px;
   }
 
   .galery {
@@ -390,13 +391,11 @@
     grid-column: 1;
   }
 
-  
-
-  .grid-col-medium {
+  .content__container {
     grid-column: 2 / span 2;
   }
 
-  .grid-col-light {
+  .content__container-light {
     grid-column: span 1;
   }
 
